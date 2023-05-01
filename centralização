@@ -1,0 +1,4 @@
+temperaturaregistradainverno <- rpois(50, 4)
+temperaturaCentral <- temperaturaregistradainverno - mean(temperaturaregistradainverno)
+print(temperaturaCentral)
+hist(temperaturaCentral)
